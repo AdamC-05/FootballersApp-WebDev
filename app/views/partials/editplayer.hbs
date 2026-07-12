@@ -1,0 +1,56 @@
+<form class="ui stacked segment form" action="/club/{{clubId}}/updateplayer/{{id}}" method="POST">
+  <input type="hidden" name="clubId" value="{{clubId}}">
+  <input type="hidden" name="id" value="{{id}}">
+
+  <tr class="hide" id="edit{{index}}">
+    
+    <td>
+  <span class="ui input">{{name}}</span>
+  <input type="hidden" name="name" value="{{name}}">
+</td>
+
+    <td>
+      <div class="ui selection dropdown">
+        <input type="hidden" name="position" value="{{position}}">
+        <i class="dropdown icon"></i>
+        <div class="default text">Select Position</div>
+        <div class="menu">
+          <div class="item" data-value="Goalkeeper">Goalkeeper</div>
+          <div class="item" data-value="Defender">Defender</div>
+          <div class="item" data-value="Midfielder">Midfielder</div>
+          <div class="item" data-value="Attacker">Attacker</div>
+        </div>
+      </div>
+    </td>
+
+    <td>
+      <span class="ui input">
+        <input type="number" name="goals" value="{{goals}}" min="0">
+      </span>
+    </td>
+
+    <td>
+      <span class="ui input">
+        <input type="number" name="assists" value="{{assists}}" min="0">
+      </span>
+    </td>
+
+    <td>
+      <span class="ui input">
+        <input type="number" name="years_at_club" value="{{years_at_club}}" min="0">
+      </span>
+    </td>
+
+    <td class="center aligned">
+      <a href="/club/{{clubId}}" class="custom-blue-button" title="Back to team page">
+        <i class="ui undo icon"></i>
+      </a>
+    </td>
+
+    <td class="center aligned">
+      <button type="submit" class="custom-blue-button" title="Save changes">
+        <i class="ui save icon"></i>
+      </button>
+    </td>
+  </tr>
+</form>

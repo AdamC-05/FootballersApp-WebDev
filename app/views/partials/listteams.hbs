@@ -1,0 +1,58 @@
+<section class="ui left aligned middle aligned segment">
+  <h2>Football Teams</h2>
+  
+  {{#unless teams}} 
+    <h3 class="ui message">
+      Start adding your favourite teams!
+    </h3>
+  {{/unless}}
+
+  {{#each teams}} 
+    <section class="ui raised blue segment">
+      <h3 class="ui header">{{name}}</h3>
+      <p>League/Competition: {{league}}</p>
+
+      {{#if picture}}
+        <img 
+  src="{{picture}}" 
+  alt="{{name}} logo" 
+  style="width: 150px; height: 150px; object-fit: cover; margin-bottom: 1rem; border-radius: 50%; border: 2px solid #ccc;"
+>
+
+
+      {{/if}}
+
+      {{#if date}}
+        <p>
+          <i class="calendar alternate outline icon"></i>
+          Created on <i>{{formatDate date}}</i>
+        </p>
+      {{/if}}
+
+      {{#if rating}}
+        <p>
+          <span 
+            class="ui yellow disabled rating" 
+            data-icon="star" 
+            data-rating="{{rating}}" 
+            data-max-rating="5">
+          </span>
+          
+          <span style="color: grey; font-size: 90%; font-style: italic">
+            {{highlightPopular rating}}
+          </span>
+        </p>
+      {{/if}}
+
+      <div class="button-group">
+        <a href="/team/{{id}}" class="custom-blue-button">
+          <i class="futbol icon" style="visibility: visible;"></i> View Team
+        </a>
+        <a href="/teams/deleteclub/{{id}}" class="custom-red-button">
+          <i class="ui trash black icon"></i>
+        </a>
+      </div>
+
+    </section>
+  {{/each}}
+</section>

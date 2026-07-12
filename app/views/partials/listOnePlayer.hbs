@@ -1,0 +1,17 @@
+<tr id="player{{index}}">
+  <td>{{name}}</td>
+  <td>{{position}}</td>
+  <td>{{goals}}</td>
+  <td>{{assists}}</td>
+  <td>{{years_at_club}}</td>
+  <td class="center aligned">
+    <button title="Edit player" class="custom-blue-button" id="showEdit{{index}}">
+      <i class="ui pencil icon"></i>
+    </button>
+  </td>
+  <td class="center aligned">
+    <a href="/club/{{clubId}}/deleteplayer/{{id}}" class="custom-red-button">
+      <i class="ui black trash icon"></i>
+    </a>
+  </td>
+</tr>

@@ -1,0 +1,127 @@
+{{> menu id="about"}}
+
+<section class="ui center aligned segment">
+  <div class="ui container">
+    <h2 class="ui header">About the Footballers App</h2>
+
+    <div class="ui stackable doubling centered grid" style="justify-content: center;">
+      {{#with info}}
+        <div class="four wide column center aligned">
+          <div class="ui statistic">
+            <div class="value"><i class="futbol icon"></i></div>
+            <div class="label">App Title:<br>{{appTitle}}</div>
+          </div>
+        </div>
+
+        <div class="four wide column center aligned">
+          <div class="ui grey statistic">
+            <div class="value"><i class="code branch icon"></i></div>
+            <div class="label">Version:<br>{{version}}</div>
+          </div>
+        </div>
+
+        <div class="four wide column center aligned">
+          <div class="ui purple statistic">
+            <div class="value"><i class="mobile alternate icon"></i></div>
+            <div class="label">Platform:<br>{{platform}}</div>
+          </div>
+        </div>
+
+        <div class="four wide column center aligned">
+          <div class="ui teal statistic">
+            <div class="value"><i class="map marked alternate icon"></i></div>
+            <div class="label">Made in:<br>{{location}}</div>
+          </div>
+        </div>
+
+        <div class="four wide column center aligned">
+          <div class="ui yellow statistic">
+            <div class="value"><i class="laugh beam outline icon"></i></div>
+            <div class="label">Creator:<br>{{creators.0.name}}</div>
+          </div>
+        </div>
+
+        <div class="four wide column center aligned">
+          <div class="ui red statistic">
+            <div class="value"><i class="calendar icon"></i></div>
+            <div class="label">Release Date:<br>{{releaseDate}}</div>
+          </div>
+        </div>
+
+        <div class="four wide column center aligned">
+          <div class="ui yellow statistic">
+            <div class="value"><i class="trophy icon"></i></div>
+            <div class="label">Category:<br>{{appCategory}}</div>
+          </div>
+        </div>
+      {{/with}}
+    </div>
+  </div>
+</section>
+
+<section class="ui center aligned secondary segment">
+  <div class="ui container">
+    <h3 class="ui header">App Statistics</h3>
+
+    <div class="ui stackable doubling centered grid" style="justify-content: center;">
+      {{#with stats}}
+        <div class="six wide column center aligned">
+          <div class="ui blue statistic">
+            <div class="value"><i class="shield alternate icon"></i> {{totalClubs}}</div>
+            <div class="label">Total Clubs</div>
+          </div>
+        </div>
+
+        <div class="six wide column center aligned">
+          <div class="ui blue statistic">
+            <div class="value"><i class="users icon"></i> {{totalPlayers}}</div>
+            <div class="label">Total Players</div>
+          </div>
+        </div>
+
+        <div class="six wide column center aligned">
+          <div class="ui blue statistic">
+            <div class="value"><i class="hands helping icon"></i> {{avgPlayersPerClub}}</div>
+            <div class="label">Average Players per Club</div>
+          </div>
+        </div>
+
+        <div class="six wide column center aligned">
+          <div class="ui blue statistic">
+            <div class="value"><i class="sort amount up icon"></i> {{maxPlayers}}</div>
+            <div class="label">Most Players in a Club:</div>
+            
+            <div class="sub label">{{maxPlayersClub}}</div>
+          </div>
+        </div>
+
+        <div class="six wide column center aligned">
+          <div class="ui blue statistic">
+            <div class="value"><i class="sort amount down icon"></i> {{minPlayers}}</div>
+            <div class="label">Least Players in a Club:</div>
+            
+            <div class="sub label">{{minPlayersClub}}</div>
+          </div>
+        </div>
+      {{/with}}
+    </div>
+  </div>
+</section>
+
+
+<section class="ui left aligned middle aligned segment">
+  <div class="ui container map" style="max-width: 800px; margin: auto;">
+    <iframe width="100%" height="300px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31406.70309747303!2d-7.16246028935203!3d52.245819054205775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4842c41310dd4131%3A0x4042f0dcf13f7cfe!2sSouth%20East%20Technological%20University%20%7C%20Waterford%20(SETU)!5e0!3m2!1sen!2sie!4v1745489945945!5m2!1sen!2sie"
+            style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+
+<footer class="ui right aligned middle aligned segment">
+  <div class="ui container">
+    <blockquote>
+      <p>&copy; 2025 Adam Christensen</p>
+      <p>Contact me at: <a href="mailto:adam@mail.com">adam@mail.com</a></p>
+    </blockquote>
+  </div>
+</footer>

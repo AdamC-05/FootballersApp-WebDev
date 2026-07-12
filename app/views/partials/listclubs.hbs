@@ -1,0 +1,44 @@
+{{#if players}}
+  <div class="ui segment">
+    <div class="ui very padded container">
+      <div class="ui table-container" style="overflow-x:auto;">
+        <table class="ui stackable unstackable striped table">
+          <thead>
+            <tr>
+              <th class="three wide">Player</th>
+              <th class="three wide">Position</th>
+              <th class="two wide">Goals</th>
+              <th class="two wide">Assists</th>
+              <th class="two wide">Years at Club</th>
+              <th class="one wide"></th>
+              <th class="one wide"></th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each players}}
+              {{> listOnePlayer clubId=../id index=@index}}
+              {{> editplayer clubId=../id index=@index}}
+            {{/each}}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    {{#each players}}
+      document.addEventListener('DOMContentLoaded', function() {
+        document.querySelector("#showEdit{{@index}}").addEventListener('click', () => {
+          document.querySelector("#player{{@index}}").style.display = "none";
+          document.querySelector("#edit{{@index}}").style.display = "table-row";
+        });
+        document.querySelector("#hideEdit{{@index}}").addEventListener('click', () => {
+          document.querySelector("#player{{@index}}").style.display = "table-row";
+          document.querySelector("#edit{{@index}}").style.display = "none";
+        });
+      });
+    {{/each}}
+  </script>
+{{else}}
+  <h3 class="ui message">No players found for this club.</h3>
+{{/if}}

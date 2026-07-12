@@ -1,0 +1,43 @@
+{{> welcomemenu }}
+
+<section class="ui center aligned middle aligned segment">
+  <p> Sign up or Log in... </p>
+</section>
+
+{{#if stats}}
+<section class="ui center aligned secondary segment">
+  <div class="ui container">
+    <h3 class="ui header">Overall Football App Stats</h3>
+
+    <div class="ui stackable doubling centered grid" style="justify-content: center;">
+      <div class="four wide column center aligned">
+        <div class="ui teal statistic">
+          <div class="value"><i class="shield alternate icon"></i> {{stats.totalClubs}}</div>
+          <div class="label">Total Clubs</div>
+        </div>
+      </div>
+
+      <div class="four wide column center aligned">
+        <div class="ui red statistic">
+          <div class="value"><i class="users icon"></i> {{stats.totalPlayers}}</div>
+          <div class="label">Total Players</div>
+        </div>
+      </div>
+
+      <div class="four wide column center aligned">
+        <div class="ui green statistic">
+          <div class="value"><i class="user icon"></i> {{stats.totalUsers}}</div>
+          <div class="label">Total Users</div>
+        </div>
+      </div>
+
+      <div class="four wide column center aligned">
+        <div class="ui purple statistic">
+          <div class="value"><i class="hands helping icon"></i> {{stats.avgPlayers}}</div>
+          <div class="label">Avg Players Per Club Across All Users</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{/if}}

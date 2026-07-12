@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #567FA8;
+}
+
+h1, h2, h3 {
+  color: LightBlue;
+}
+
+p {
+  color: black;
+}
+
+a {
+  color: #567FA8;
+}
+
+a:hover {
+  color: LightBlue;
+  font-size: 1.07em;
+}
+
+ul {
+  background-color: #567FA8;
+}
+
+.custom-blue-button {
+  background-color: #567FA8;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.custom-blue-button:hover {
+  background-color: LightBlue;
+  color: black;
+}
+
+.right.menu {
+  background-color: LightBlue;
+}
+
+.ui.header {
+  color: #567FA8;
+}
+
+/*ui.container.map {
+  unused
+}*/
+
+.ui.circular.segment .value i {
+  font-size: 2em;  
+  line-height: 1;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.custom-red-button {
+  background-color: #FF5733; 
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.custom-red-button:hover {
+  background-color: #FF7043; 
+  color: black;
+}
+
+.hide{
+    display: none;
+}
+
+.name{
+  padding-top:22.5px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+  text-transform:capitalize;
+}
+
+.profilepic {
+  padding-top: 15px;
+  padding-right: 5px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+
+
+

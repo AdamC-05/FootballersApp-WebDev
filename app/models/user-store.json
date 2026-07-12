@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "test",
+      "lastName": "1",
+      "email": "test@test.com",
+      "password": "test",
+      "id": "ada66a67-e06a-4a9f-969d-683669ec9e09"
+    },
+    {
+      "firstName": "aaa",
+      "lastName": "aa",
+      "email": "aa",
+      "password": "a",
+      "id": "0618d8a5-e01e-4316-b7d9-8be89dddb1e8"
+    },
+    {
+      "firstName": "a",
+      "lastName": "aa",
+      "email": "aa",
+      "password": "aa",
+      "id": "a9c931c1-2a36-49bd-a1ef-7be39214cc5e"
+    },
+    {
+      "firstName": "aa",
+      "lastName": "a",
+      "email": "aaa",
+      "password": "aa",
+      "id": "85ed8dac-42bd-441f-821a-c2462ac95401"
+    },
+    {
+      "firstName": "Adam",
+      "lastName": "Christensen",
+      "email": "adam@mail.com",
+      "password": "123",
+      "id": "30cda2bc-a355-4e50-990f-0fc400524dcb"
+    },
+    {
+      "firstName": "Rosemarie",
+      "lastName": "Griffith",
+      "email": "griffith.rosemarie@gmail.com",
+      "password": "Adam2025!",
+      "id": "437ca632-1cb5-40c2-984b-eb7bdb9a6e57"
+    },
+    {
+      "firstName": "P",
+      "lastName": "C",
+      "email": "peromo.net@gmail.com",
+      "password": "PC",
+      "id": "6967913b-c1bd-428d-80f0-4d4b8320a113"
+    }
+  ]
+}

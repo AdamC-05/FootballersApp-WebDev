@@ -1,0 +1,16 @@
+{
+  "info": {
+    "appTitle": "Footballers App",
+    "version": 2.1,
+    "creators": [
+      {
+        "name": "Adam Christensen",
+        "role": "Web Developer"
+      }
+    ],
+    "location": "SETU, Co. Waterford, Ireland",
+    "platform": "iOS, Android, Windows",
+    "releaseDate": "05/2025",
+    "appCategory": "Sports"
+  }
+}

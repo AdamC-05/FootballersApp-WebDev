@@ -1,0 +1,669 @@
+{
+  "teams": [
+    {
+      "id": "01",
+      "name": "Manchester United Legends",
+      "country": "England",
+      "league": "Premier League",
+      "rating": 4,
+      "players": [
+        {
+          "id": "b387a1e8-f994-47db-b209-0573a4ae3d3c",
+          "name": "",
+          "position": "Attacker",
+          "goals": 669,
+          "assists": 3000,
+          "years_at_club": 5
+        },
+        {
+          "name": "Ryan Giggs",
+          "position": "Midfielder",
+          "goals": 109,
+          "assists": 162,
+          "years_at_club": 23,
+          "id": "6b5c5f9d-9785-4a63-bf54-b65b5a23238b"
+        },
+        {
+          "id": "8d0c95ce-d69e-445d-b13a-e7877effc7e3",
+          "position": "Midfielder",
+          "goals": 107,
+          "assists": 55,
+          "years_at_club": 20
+        },
+        {
+          "id": "03000e43-2801-4847-8117-6582b2ccac84",
+          "name": "grGRDG",
+          "position": "Defender",
+          "goals": "0",
+          "assists": "0",
+          "years_at_club": "1"
+        },
+        {
+          "id": "b527e9a5-c4c8-4e03-ad2a-1b2cc5c0719c",
+          "position": "d",
+          "goals": 1,
+          "assists": 0,
+          "years_at_club": 0
+        },
+        {
+          "id": "2366e845-fbce-4b02-9576-ee282d92c215",
+          "name": "test",
+          "position": "Goalkeeper",
+          "goals": "3",
+          "assists": "7",
+          "years_at_club": "5"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "name": "Real Madrid Legends",
+      "country": "Spain",
+      "league": "La Liga",
+      "rating": 3,
+      "players": [
+        {
+          "id": "73a1c098-9f92-4e31-967c-aa830a8133b9",
+          "position": "Forward",
+          "goals": 229,
+          "assists": 68,
+          "years_at_club": 16
+        },
+        {
+          "name": "Zinedine Zidane",
+          "position": "Midfielder",
+          "goals": 37,
+          "assists": 48,
+          "years_at_club": 5,
+          "id": "8b3b3873-d695-44fe-bdb4-b50cb51ed390"
+        },
+        {
+          "name": "Roberto Carlos",
+          "position": "Defender",
+          "goals": 47,
+          "assists": 59,
+          "years_at_club": 11,
+          "id": "2f71c0a2-dc26-4dda-8fbe-58914134f9eb"
+        },
+        {
+          "id": "e485ab62-da8c-4cd6-859c-32421ed7a90a",
+          "name": "test",
+          "position": "Defender",
+          "goals": "9",
+          "assists": "",
+          "years_at_club": ""
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "name": "Bayern Munich Legends",
+      "country": "Germany",
+      "league": "Bundesliga",
+      "rating": 3,
+      "players": []
+    },
+    {
+      "id": "04",
+      "name": "Juventus Legends",
+      "country": "Italy",
+      "league": "Serie A",
+      "rating": 3,
+      "players": [
+        {
+          "name": "Alessandro Del Piero",
+          "position": "Forward",
+          "goals": 208,
+          "assists": 91,
+          "years_at_club": 19,
+          "id": "8c6cd070-a6a3-4f53-9828-8562fc091eeb"
+        },
+        {
+          "name": "Pavel Nedvěd",
+          "position": "Midfielder",
+          "goals": 51,
+          "assists": 42,
+          "years_at_club": 8,
+          "id": "b32414b1-71ea-417d-b450-2dbdc2f04c4f"
+        },
+        {
+          "name": "Gianluigi Buffon",
+          "position": "Goalkeeper",
+          "goals": 0,
+          "assists": 1,
+          "years_at_club": 19,
+          "id": "a7959180-d6e7-475b-b12a-43006072a060"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "name": "Barcelona Legends",
+      "country": "Spain",
+      "league": "La Liga",
+      "rating": 5,
+      "players": [
+        {
+          "id": "1d235abf-393c-431a-bca9-dd96e78207bf",
+          "name": "",
+          "position": "Attacker",
+          "goals": 672,
+          "assists": 268,
+          "years_at_club": 21
+        },
+        {
+          "id": "4041801c-4e87-41ae-acdb-1c35f90c6cde",
+          "position": "Midfielder",
+          "goals": 86,
+          "assists": 187,
+          "years_at_club": 17
+        },
+        {
+          "id": "18f0e40d-67f2-4381-98e8-6a1460d86264",
+          "name": "Carles Puyol",
+          "position": "Defender",
+          "goals": 22,
+          "assists": 12,
+          "years_at_club": 16
+        }
+      ]
+    },
+    {
+      "id": "ee603cc1-fa7a-408c-a0da-665d05276c9c",
+      "name": "test",
+      "league": "1",
+      "rating": 5,
+      "players": [],
+      "date": "2025-04-23T17:26:09.972Z"
+    },
+    {
+      "id": "d3e82ade-af57-44bf-ac75-7cd77e914fdd",
+      "name": "France",
+      "league": "World Cup",
+      "country": "France",
+      "rating": 4,
+      "players": [
+        {
+          "id": "88f889b6-a899-411a-b0d6-c6b901e0c7c9",
+          "name": "Mbappe",
+          "position": "Attacker",
+          "goals": "34",
+          "assists": "16",
+          "years_at_club": "5"
+        }
+      ],
+      "date": "2025-04-23T17:30:37.751Z"
+    },
+    {
+      "id": "1d0378b5-f5e7-4ef7-8d8b-60f6024b9884",
+      "name": "homertest",
+      "league": "1",
+      "country": "e",
+      "rating": 3,
+      "players": [],
+      "date": "2025-04-24T14:46:37.694Z"
+    },
+    {
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "9990044f-daf3-41b8-87d3-a6118113c28c",
+      "name": "homerFC",
+      "league": "test",
+      "country": "test",
+      "rating": 4,
+      "players": [
+        {
+          "id": "00f204fb-f38b-4f35-a1b2-2de490442a30",
+          "name": "homer",
+          "position": "Attacker",
+          "goals": "800",
+          "assists": "409",
+          "years_at_club": "9"
+        },
+        {
+          "id": "7dbb2cc3-4860-4131-bb10-9aeabf54a160",
+          "name": "bart",
+          "position": "",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "fd552072-1e88-4d8f-a6db-5e30919140b8",
+          "name": "maggie",
+          "position": "",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "5ed02c22-4bd0-4860-b56b-8e8de24322a9",
+          "name": "lisa",
+          "position": "",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "6de7f882-c887-4055-be3a-f6670d024371",
+          "name": "marge",
+          "position": "",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "1ca9c42a-1f1b-4fdd-9a4d-d27b42e25687",
+          "name": "Ned",
+          "position": "",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "88909403-b157-433f-bf62-badffdd66af8",
+          "name": "moe",
+          "position": "",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        }
+      ],
+      "date": "2025-04-24T14:56:59.996Z"
+    },
+    {
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "ac007e8b-c885-4b8a-9042-047b709ee383",
+      "name": "margeFC",
+      "league": "test",
+      "country": "test",
+      "rating": 3,
+      "players": [],
+      "date": "2025-04-24T14:57:30.198Z"
+    },
+    {
+      "userid": "ada66a67-e06a-4a9f-969d-683669ec9e09",
+      "id": "234f1e43-f841-4924-8ca3-f902ee1215d1",
+      "name": "test",
+      "league": "1",
+      "country": "1",
+      "rating": 5,
+      "players": [
+        {
+          "id": "8c53af51-e5aa-4c00-a714-3708f8ff323d",
+          "name": "test",
+          "position": "Goalkeeper",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        }
+      ],
+      "date": "2025-04-24T16:23:31.163Z"
+    },
+    {
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "97d9951d-1094-4d42-b0b2-eb57df6247f4",
+      "name": "test",
+      "league": "test leagaue",
+      "country": "x",
+      "rating": 4,
+      "players": [
+        {
+          "id": "d479d0fa-d44b-47f4-ba48-846d1bc8e78c",
+          "name": "test person",
+          "position": "Midfielder",
+          "goals": 4,
+          "assists": 8,
+          "years_at_club": 1
+        }
+      ],
+      "date": "2025-04-24T22:50:48.903Z"
+    },
+    {
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "d9c7fd7b-bf8e-4207-b8a9-405dc5408b5c",
+      "name": "test2",
+      "league": "test",
+      "country": "test",
+      "rating": 3,
+      "players": [],
+      "date": "2025-04-25T16:00:43.328Z",
+      "picture": {
+        "name": "FireKnight.png",
+        "data": {
+          "type": "Buffer",
+          "data": []
+        },
+        "size": 3146,
+        "encoding": "7bit",
+        "tempFilePath": "/app/tmp/tmp-1-1745596843313",
+        "truncated": false,
+        "mimetype": "image/png",
+        "md5": "9f69031ea7f5d229b49afa06fd0049d2"
+      }
+    },
+    {
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "a27abf85-9fb3-4267-9480-3ab8af1e545b",
+      "name": "test3",
+      "league": "test",
+      "country": "test",
+      "rating": 2,
+      "players": [],
+      "date": "2025-04-25T16:14:28.513Z",
+      "picture": "http://res.cloudinary.com/web-app-dev-adamc/image/upload/v1745597668/xjeroivw36sy8mqgdixu.jpg"
+    },
+    {
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "89876f40-a939-45f2-8464-232dfa8f4c64",
+      "name": "test",
+      "league": "dassad",
+      "country": "d",
+      "rating": 4,
+      "players": [],
+      "date": "2025-04-25T16:36:06.787Z",
+      "picture": "http://res.cloudinary.com/web-app-dev-adamc/image/upload/v1745598966/uv9zuo0heugeseju4tq5.png"
+    },
+    {
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "62524226-c580-49bf-b9c0-6c188f463dea",
+      "name": "mn",
+      "league": "s",
+      "country": "s",
+      "rating": 1,
+      "players": [],
+      "date": "2025-04-25T16:36:35.346Z",
+      "picture": "http://res.cloudinary.com/web-app-dev-adamc/image/upload/v1745598995/xdmrh4q9ywfz08f4vqsf.png"
+    },
+    {
+      "userid": "30cda2bc-a355-4e50-990f-0fc400524dcb",
+      "id": "cacca9c0-4129-4230-8720-690c822dc151",
+      "name": "Denmark",
+      "league": "Euros",
+      "country": "Denmark",
+      "rating": 4,
+      "players": [
+        {
+          "id": "33778e4c-2c09-4f86-9033-c0fe677ee3fb",
+          "name": "Rasmus Hojlund",
+          "position": "Attacker",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "dd4e23dc-5d9a-4928-a732-8dcd8b60071b",
+          "name": "Kasper Schmeichel",
+          "position": "Goalkeeper",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "7ff4cd63-88f8-4fd2-9335-965ef57c050d",
+          "name": "Andreas Christensen",
+          "position": "Defender",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "b64dc65c-b349-4fc9-bcae-467f38c12fab",
+          "name": "Christian Eriksen",
+          "position": "Midfielder",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        }
+      ],
+      "date": "2025-04-26T11:21:54.429Z",
+      "picture": "http://res.cloudinary.com/web-app-dev-adamc/image/upload/v1745666514/idvxwmn1cgxgtwgmq1q5.png"
+    },
+    {
+      "userid": "30cda2bc-a355-4e50-990f-0fc400524dcb",
+      "id": "17088984-35dc-450b-9361-03fa8d3f0605",
+      "name": "Manchester United - All Time XI",
+      "league": "Premier League",
+      "country": "England",
+      "rating": 5,
+      "players": [
+        {
+          "id": "a3a59cd4-3cef-4e11-93fd-9a673b8b8642",
+          "name": "Cristiano Ronaldo",
+          "position": "Midfielder",
+          "goals": 145,
+          "assists": 37,
+          "years_at_club": 8
+        },
+        {
+          "id": "0add96df-a114-4562-98c9-8d27de36bc5c",
+          "name": "Peter Schmeichel ",
+          "position": "Goalkeeper",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "f1b46bfe-fa93-41d4-84bb-60be1bf6af07",
+          "name": "Ryan Giggs",
+          "position": "Midfielder",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "262b9de8-e410-42ba-8eb0-b29fa26dcf67",
+          "name": "Paul Scholes",
+          "position": "Midfielder",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "b37827a2-82a7-467f-89b5-1ac1f865676e",
+          "name": "Rio Ferdinand",
+          "position": "Defender",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "72744987-d1b9-4cfb-be74-5042648eb176",
+          "name": "Harry Maguire",
+          "position": "Defender",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "f304fad9-cddf-436d-a374-3d4dc1385470",
+          "name": "Phil Jones",
+          "position": "Defender",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        }
+      ],
+      "date": "2025-04-26T11:23:09.127Z",
+      "picture": "http://res.cloudinary.com/web-app-dev-adamc/image/upload/v1745666589/ubh981q5xhs4ar8lkak5.png"
+    },
+    {
+      "userid": "30cda2bc-a355-4e50-990f-0fc400524dcb",
+      "id": "d1d908b9-bd12-41b3-bab8-fbbf40f41f5e",
+      "name": "Real Madrid - All Time XI",
+      "league": "La Liga",
+      "country": "Spain",
+      "rating": 5,
+      "players": [],
+      "date": "2025-04-26T11:24:20.333Z",
+      "picture": "http://res.cloudinary.com/web-app-dev-adamc/image/upload/v1745666660/z8xkvzezr8ouzfdpeprn.png"
+    },
+    {
+      "userid": "30cda2bc-a355-4e50-990f-0fc400524dcb",
+      "id": "1a29f20e-8d8d-4ab5-9548-620efdddeea0",
+      "name": "World Cup XI",
+      "league": "World Cup",
+      "country": "N/A",
+      "rating": 5,
+      "players": [
+        {
+          "id": "e681d97e-d448-4242-8a22-1a54875310a6",
+          "name": "Pele",
+          "position": "Attacker",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "69692c9b-5192-4b12-a8ee-b40d67d816c2",
+          "name": "Diego Maradonna",
+          "position": "Attacker",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "14ccb857-99e7-48e3-8638-7ac28eb66ee0",
+          "name": "Cryuff",
+          "position": "Midfielder",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "f4cbf517-c437-455f-a5fa-1f0bd9c7fe12",
+          "name": "Roberto Carlos",
+          "position": "Defender",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        }
+      ],
+      "date": "2025-04-30T12:28:05.996Z",
+      "picture": "http://res.cloudinary.com/web-app-dev-adamc/image/upload/v1746016086/palzbwcvrfmxqktrog2c.png"
+    },
+    {
+      "userid": "30cda2bc-a355-4e50-990f-0fc400524dcb",
+      "id": "f6688341-5e27-410a-b126-f130581104ca",
+      "name": "Barcelona Ultimate Team",
+      "league": "La Liga",
+      "country": "Spain",
+      "rating": 5,
+      "players": [
+        {
+          "id": "5a92a723-2516-4c07-abf8-c7c50cbacf0c",
+          "name": "Lionel Messi",
+          "position": "Attacker",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "b9f61ccf-3453-4b91-81ca-f9ce1c9da9e0",
+          "name": "Luiz Suarez",
+          "position": "Attacker",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "9d677ca0-c8a6-4df5-b8f1-5c20ccd4aee6",
+          "name": "Neymar Jr.",
+          "position": "Attacker",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        }
+      ],
+      "date": "2025-04-30T12:30:03.083Z",
+      "picture": "http://res.cloudinary.com/web-app-dev-adamc/image/upload/v1746016203/k2gjqcxqrjzvzuex2sdv.png"
+    },
+    {
+      "userid": "30cda2bc-a355-4e50-990f-0fc400524dcb",
+      "id": "039e78d8-604b-4674-92c1-f377d554ff5b",
+      "name": "PSG 2022/2023",
+      "league": "Ligue 1",
+      "country": "France",
+      "rating": 3,
+      "players": [
+        {
+          "id": "950edd5e-b72c-4ab6-a6c9-597d96f273f9",
+          "name": "Kilian Mbappe",
+          "position": "Attacker",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "4d94d918-c5dc-4c31-a670-946586582965",
+          "name": "Donnoruma",
+          "position": "Goalkeeper",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "48e64813-c4fb-4000-9511-990bf98334dc",
+          "name": "Messi",
+          "position": "Attacker",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        }
+      ],
+      "date": "2025-04-30T12:32:21.310Z",
+      "picture": "http://res.cloudinary.com/web-app-dev-adamc/image/upload/v1746016341/qj9l6nakgnoeecomuk.png"
+    },
+    {
+      "userid": "30cda2bc-a355-4e50-990f-0fc400524dcb",
+      "id": "7e8f27d1-209c-4db5-ac24-802e3a2d400c",
+      "name": "Juventus All Time XI",
+      "league": "Serie A",
+      "country": "Italy",
+      "rating": 4,
+      "players": [
+        {
+          "id": "eebc1a3b-26af-4d62-9ce9-363b75e1fd14",
+          "name": "Gianluigi Buffon",
+          "position": "Goalkeeper",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "6be0f81a-47c1-4351-a41d-3d34924d3dd2",
+          "name": "Zinedine Zidane",
+          "position": "Midfielder",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "a2f2ac60-2c23-4b90-9bb1-a2800c8473a2",
+          "name": "Roberto Baggio",
+          "position": "Midfielder",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "1fbf785a-0b50-4b17-b65c-4c4e336e6473",
+          "name": "Del Piero",
+          "position": "Attacker",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        },
+        {
+          "id": "9c34f9a9-3803-4dcf-856c-4a435ef0dccd",
+          "name": "Cristiano Ronaldo",
+          "position": "Attacker",
+          "goals": "",
+          "assists": "",
+          "years_at_club": ""
+        }
+      ],
+      "date": "2025-04-30T12:34:24.824Z",
+      "picture": "http://res.cloudinary.com/web-app-dev-adamc/image/upload/v1746016465/owaf561xi046jbyeksgj.png"
+    }
+  ]
+}

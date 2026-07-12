@@ -1,0 +1,31 @@
+<form class="ui stacked segment form" action="/teams/addclub" method="POST" enctype="multipart/form-data">
+  <div class="field">
+    <label><i class="users icon"></i> Team Name</label>
+    <input placeholder="Name" type="text" name="name" required autofocus>
+  </div>
+
+  <div class="field">
+    <label><i class="trophy icon"></i> League/Competition</label>
+    <input placeholder="League" type="text" name="league" required>
+  </div>
+
+  <div class="field">
+    <label><i class="flag icon"></i> Country</label>
+    <input placeholder="Country" type="text" name="country" required>
+  </div>
+
+  <div class="field">
+    <label><i class="star icon"></i> Rating</label>
+    <div class="ui yellow star rating" data-icon="star" data-max-rating="5" data-rating="1"></div>
+    <input type="hidden" name="rating" id="ratingValue" value="1">
+  </div>
+
+  <div class="field">
+    <label><i class="image icon"></i> Team Logo</label>
+    <input type="file" name="picture" accept="image/*" required>
+  </div>
+
+  <button class="ui blue fluid button">
+    <i class="plus icon"></i> Add Team
+  </button>
+</form>

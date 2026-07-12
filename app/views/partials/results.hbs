@@ -1,0 +1,23 @@
+<section id="searchResults">
+  {{#if foundPlaylists}}
+    <h2>
+      {{categoryTitle}}
+    </h2>
+  {{/if}}
+
+  {{#each foundPlaylists}}
+    <section class="ui left aligned middle aligned segment">
+      <h3 class="ui header">
+        {{name}}
+      </h3>
+      <p>
+        <i class="users icon"></i>
+        {{#if players.length}}
+          Total players: {{players.length}}
+        {{else}}
+          No players listed!
+        {{/if}}
+      </p>
+    </section>
+  {{/each}}
+</section>

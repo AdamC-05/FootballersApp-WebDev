@@ -1,0 +1,22 @@
+{{> menu}}
+
+{{#with club}}
+
+  <section class="ui center aligned middle aligned segment">
+    <h2 class="ui header">
+      {{name}}
+    </h2>
+
+    <p>Country: {{country}}</p>
+    <p>League/Competition: {{league}}</p>
+
+    {{> listclubs}}
+  </section>
+
+  <section class="ui center aligned middle aligned segment">
+
+    {{> addplayer}}
+
+  </section>
+
+{{/with}}
